@@ -3,7 +3,7 @@
 body {
     background-color: hsl(30, 54%, 90%);
     margin: 0;
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem;
     display: flex;
     justify-content: center;
     font-family: 'Outfit', sans-serif;
@@ -12,14 +12,14 @@ body {
 
 main {
     background-color: hsl(0, 0%, 100%);
-    max-width: 700px;
-    padding: 30px;
-    border-radius: 20px;
+    max-width: 43.75rem;
+    padding: 1.8rem;
+    border-radius: 1.25rem;
 }
 
 img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0.6rem;
 }
 
 h1{
@@ -31,14 +31,14 @@ h1{
 h2{
     font-family: 'Young Serif', serif;
     color: hsl(14, 45%, 36%);
-    margin-top: 30px;
+    margin-top: 1.8rem;
 }
 
 .prep-box {
     background-color: hsl(330, 100%, 98%);
-    padding: 20px;
-    border-radius: 12px;
-    margin: 25px 0;
+    padding: 1.25rem;
+    border-radius: 0.7;
+    margin: 1.5rem 0;
 }
 
 .prep-box h3 {
@@ -47,8 +47,8 @@ h2{
 }
 
 li {
-    margin-bottom: 12px;
-    padding-left: 10px;
+    margin-bottom: 0.7rem;
+    padding-left: 0.6rem;
 }
 
 li::marker {
@@ -59,12 +59,12 @@ li::marker {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 td {
-    padding: 15px 0;
-    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 0.9rem 0;
+    border-bottom: 0.06rem solid hsl(30, 18%, 87%);
 }
 
 tr:last-child td {
@@ -81,6 +81,6 @@ ol ul {
 
 ol ul {
     list-style-type: disc;
-    padding-left: 1px;
-    margin-top: 10px;
+    padding-left: 0.06rem;
+    margin-top: 0.6rem;
 }
